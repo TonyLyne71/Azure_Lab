@@ -1,4 +1,4 @@
-resource "random_pet" "rg_name" {
+resource "random_pet" "rg_name1" {
   prefix = var.resource_group_name_prefix
 }
 
