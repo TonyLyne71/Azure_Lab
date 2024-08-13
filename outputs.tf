@@ -1,3 +1,5 @@
-output "resource_group_name" {
-  value = azurerm_resource_group.rg.name
+# Added 6/8 to test managament group creation
+
+output "id" {
+  value = azurerm_management_group.example.id
 }
